@@ -1,0 +1,1 @@
+dotnet.exe new console -o hello-csharp && dotnet.exe run
