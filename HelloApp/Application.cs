@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace HelloCSharp
+namespace HelloApp
 {
-    class Program
+    class Application
     {
         static void Main(string[] args)
         {
