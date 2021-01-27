@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SQKQg5mEjnrZQ/AYhWoT7LHnR2OkO+6nenFk8osT+8hjJHV4jLrhPjIm+xUd7VMgC8Wu8vhWsZvD69dG7/8euw==",
+  "dgSpecHash": "01BG5eq7MoMK0s3lcgeM/OxnrM8izdSICia6NvnXpdG2wfTIMjIjEsSMCXf8LzG+MrxkRL0NKdQb8fJtEjxVgQ==",
   "success": true,
-  "projectFilePath": "D:\\work-demos\\hello-csharp\\hello-csharp.csproj",
+  "projectFilePath": "D:\\work-cs\\hello-csharp\\hello-csharp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

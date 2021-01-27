@@ -8,24 +8,31 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\t_xuq\\.nuget\\packages\\": {}
+    "C:\\Users\\t_xuq\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\work-demos\\hello-csharp\\hello-csharp.csproj",
+      "projectUniqueName": "D:\\work-cs\\hello-csharp\\hello-csharp.csproj",
       "projectName": "hello-csharp",
-      "projectPath": "D:\\work-demos\\hello-csharp\\hello-csharp.csproj",
+      "projectPath": "D:\\work-cs\\hello-csharp\\hello-csharp.csproj",
       "packagesPath": "C:\\Users\\t_xuq\\.nuget\\packages\\",
-      "outputPath": "D:\\work-demos\\hello-csharp\\obj\\",
+      "outputPath": "D:\\work-cs\\hello-csharp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\t_xuq\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\t_xuq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
