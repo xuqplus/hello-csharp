@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HelloCore.Folder
 {
-    class A
+    public class A
     {
         public static string F()
         {

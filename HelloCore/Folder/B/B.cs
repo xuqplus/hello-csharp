@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HiApp.Folder.B
 {
-    class B
+    public class B
     {
         public string F()
         {

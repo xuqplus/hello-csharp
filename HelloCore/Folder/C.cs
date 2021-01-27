@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HelloCore
 {
-    class C
+    public class C
     {
         public static string F()
         {
