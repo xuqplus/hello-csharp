@@ -1,3 +1,4 @@
+using HiMSTest.Virtual;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting.Logging;
 using System;
@@ -17,5 +18,18 @@ namespace HiMSTest
             //Assert.IsTrue(true);
             Assert.IsTrue(false);
         }
+
+        [TestMethod]
+        public void B2Method()
+        {
+            D d = new D2();
+
+            string[] r = { d.AVirtualMethod(), d.VirtualMethod2() };
+
+            Logger.LogMessage("Test keyword virtual, method return {0} and {1}", r);
+
+            Assert.IsTrue(true);
+        }
+
     }
 }
