@@ -13,7 +13,7 @@ namespace HiMSTest.Virtual
             return r;
         }
 
-        public virtual string VirtualMethod2()
+        public string NonVirtualMethod()
         {
             var r = "haha";
             Console.WriteLine(r);

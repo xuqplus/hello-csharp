@@ -12,5 +12,13 @@ namespace HiMSTest.Virtual
             Console.WriteLine(r);
             return r;
         }
+
+        // only abstract/override/virtual methods can be override
+        //public override string NonVirtualMethod()
+        //{
+        //    var r = "hihi";
+        //    Console.WriteLine(r);
+        //    return r;
+        //}
     }
 }

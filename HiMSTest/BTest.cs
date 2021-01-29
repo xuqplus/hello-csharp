@@ -24,7 +24,7 @@ namespace HiMSTest
         {
             D d = new D2();
 
-            string[] r = { d.AVirtualMethod(), d.VirtualMethod2() };
+            string[] r = { d.AVirtualMethod(), d.NonVirtualMethod() };
 
             Logger.LogMessage("Test keyword virtual, method return {0} and {1}", r);
 
