@@ -17,3 +17,24 @@ $ dotnet add package Microsoft.EntityFrameworkCore.Design
 $ dotnet ef migrations add InitialCreate
 $ dotnet ef database update
 ```
+
+#### differences between ObjectContext vs DbContext
+functionally and conceptually speaking, are both like `Repository` in JPA  
+ObjectContext provides:
+* Database connection
+* Builtin Add, Update and Delete functions
+* Object Set of every entity
+* Provide State of pending changes
+* It holds the changes done in entities
+* under namespace System.Data.Entity.Core.Objects
+
+DbContext:
+* is nothing but a ObjectContext wrapper
+* is a lightweight alternative choice
+* under namespace System.Data.Entity
+
+comparison link  
+https://www.c-sharpcorner.com/UploadFile/ff2f08/objectcontext-vs-dbcontext/  
+api references  
+https://docs.microsoft.com/en-us/dotnet/api/?view=entity-framework-6.2.0  
+https://docs.microsoft.com/en-us/dotnet/api/?view=efcore-5.0
