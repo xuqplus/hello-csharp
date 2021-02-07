@@ -3,3 +3,5 @@ obj/
 bin/
 .vs/
 .idea/
+HiXUnit/Migrations/20210207063913_InitialCreate.cs
+HiXUnit/Migrations/20210207063913_InitialCreate.Designer.cs
