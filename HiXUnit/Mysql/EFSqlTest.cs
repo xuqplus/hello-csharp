@@ -1,11 +1,6 @@
-﻿using MySql.Data.MySqlClient;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.EntityFrameworkCore;
 using Xunit;
 using Xunit.Abstractions;
-using System.Runtime.InteropServices;
 
 namespace HiXUnit.Mysql
 {
@@ -19,16 +14,20 @@ namespace HiXUnit.Mysql
         }
 
         [Fact]
-        public void Test()
+        public void TestNativeQuery()
         {
             OutputHelper.WriteLine("this is xunit - MysqlTest");
 
-            string name = "xqq";
-
             using (var context = new UserContext())
             {
-                context.Users.FromSqlRaw("select");
-                OutputHelper.WriteLine("idddd=>{2}, ");
+                System.Linq.IQueryable<User> queryables = context.Users.FromSqlRaw("select * from users");
+                System.Collections.Generic.List<User> users = queryables.ToListAsync().Result;
+                OutputHelper.WriteLine("users=>{0}, ", users?.Count);
+
+                foreach(var user in users)
+                {
+                    OutputHelper.WriteLine("user.id=>{0}, user.name=>{1}, ", user.Id, user.Name);
+                }
                 Assert.True(0 != 1);
             }
         }
