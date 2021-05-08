@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 
 namespace HelloCore
 {
@@ -8,6 +9,10 @@ namespace HelloCore
         {
             string r = "this is HelloCore.FService.F()";
             Console.WriteLine(r);
+            
+            // test app config file
+            Console.WriteLine(ConfigurationManager.AppSettings.Get("aa"));
+
             return r;
         }
     }
