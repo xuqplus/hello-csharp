@@ -1,0 +1,13 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=550bb05c_002De3f5_002D450c_002Db16c_002D067370333df0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="BMethod" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::BFA0F3D9-B311-4331-BE9B-48AEA56A16F5::.NETCoreApp,Version=v3.1::HiMSTest.BTest.BMethod&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::BFA0F3D9-B311-4331-BE9B-48AEA56A16F5::.NETCoreApp,Version=v3.1::HiMSTest.BTest.B2Method&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3E54D457-E80A-4047-ABEB-73B7C31577A7::.NETCoreApp,Version=v3.1::HiNUnit.Tests.CMethod&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::E8A7BD3F-ABE2-4A83-BAB8-554EE161EDD1::.NETCoreApp,Version=v3.1::HiXUnit.ATest.AMethod&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3E54D457-E80A-4047-ABEB-73B7C31577A7::.NETCoreApp,Version=v3.1::HiNUnit.CStructTest.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3E54D457-E80A-4047-ABEB-73B7C31577A7::.NETCoreApp,Version=v3.1::HiNUnit.EventTest.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3E54D457-E80A-4047-ABEB-73B7C31577A7::.NETCoreApp,Version=v3.1::HiNUnit.AnonymousMethodTest.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3E54D457-E80A-4047-ABEB-73B7C31577A7::.NETCoreApp,Version=v3.1::HiNUnit.PropertiesTest.Test&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
